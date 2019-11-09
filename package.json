@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Projeto FullStack DevPleno - BugTracker",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "nodemon index.js"
+  },
   "author": "Mayron Souza",
   "license": "MIT",
   "dependencies": {
@@ -11,5 +13,8 @@
     "ejs": "^2.7.1",
     "express": "^4.17.1",
     "google-spreadsheet": "^2.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
   }
 }
